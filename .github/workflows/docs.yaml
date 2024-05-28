@@ -1,0 +1,27 @@
+name: "Terraform Docs"
+
+on:
+  pull_request:
+    paths:
+      - "**/*.tf"
+
+jobs:
+  terraform-docs:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      contents: write
+    steps:
+      - name: Pull request checkout
+        uses: actions/checkout@v3
+        id: checkout
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+      - name: README.md generation
+        uses: terraform-docs/gh-actions@main
+        id: tfdocs
+        with:
+          find-dir: ./modules
+          output-file: readme.md
+          output-method: inject
+          git-push: "true"
