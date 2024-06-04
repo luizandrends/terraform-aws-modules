@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0](https://github.com/luizandrends/terraform-aws-modules/compare/v1.1.0...v1.2.0) (2024-06-04)
+
+
+### Features
+
+* **s3:** Implementing lifecycle rules ([f719ff4](https://github.com/luizandrends/terraform-aws-modules/commit/f719ff46ff01ea9e162cf4a26c9edb73807f8d0b))
+* **s3:** Implementing versioning configuration ([8568a56](https://github.com/luizandrends/terraform-aws-modules/commit/8568a56e7004abe7117e2f96da78c773d277053d))
+
 ## [1.1.0](https://github.com/luizandrends/terraform-aws-modules/compare/v1.0.0...v1.1.0) (2024-06-04)
 
 
