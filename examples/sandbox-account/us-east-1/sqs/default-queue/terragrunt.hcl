@@ -3,20 +3,16 @@ locals {
   application_tags = {
     environment     = "dev"
     team            = "my-awesome-team"
-    application     = "some-sandbox-bucket"
+    application     = "some-sandbox-queue"
   }
 }
 
 terraform {
-  source = "../../../../../modules/s3"
+  source = "../../../../../modules/sqs"
 }
 
 inputs = merge(local.application_tags, {
   name = "default"
-
-  versioning = {
-    status = true
-  }
 })
 
 include {
