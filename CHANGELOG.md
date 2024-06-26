@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.4.0](https://github.com/luizandrends/terraform-aws-modules/compare/v1.3.0...v1.4.0) (2024-06-26)
+
+
+### Features
+
+* **sns:** Creating sns module ([82c01d9](https://github.com/luizandrends/terraform-aws-modules/commit/82c01d94443ecbbce394a7137eb6bb874e598b0a))
+
 ## [1.3.0](https://github.com/luizandrends/terraform-aws-modules/compare/v1.2.0...v1.3.0) (2024-06-26)
 
 
