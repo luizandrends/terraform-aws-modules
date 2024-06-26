@@ -3,7 +3,7 @@ locals {
   application_tags = {
     environment     = "dev"
     team            = "my-awesome-team"
-    application     = "some-sandbox-lambda"
+    application     = "some-sandbox-bucket"
   }
 }
 
