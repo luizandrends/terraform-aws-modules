@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3.0](https://github.com/luizandrends/terraform-aws-modules/compare/v1.2.0...v1.3.0) (2024-06-26)
+
+
+### Features
+
+* **sqs:** Creating sqs module ([ba26cb5](https://github.com/luizandrends/terraform-aws-modules/commit/ba26cb5c5660db35b60d56f1bb25e19446cbe3b0))
+
 ## [1.2.0](https://github.com/luizandrends/terraform-aws-modules/compare/v1.1.0...v1.2.0) (2024-06-04)
 
 
