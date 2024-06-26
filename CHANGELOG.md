@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.5.0](https://github.com/luizandrends/terraform-aws-modules/compare/v1.4.0...v1.5.0) (2024-06-26)
+
+
+### Features
+
+* **s3:** Including policy configuration ([8855f06](https://github.com/luizandrends/terraform-aws-modules/commit/8855f06b18e0e53a56439b302026714e2ad39f1f))
+
 ## [1.4.0](https://github.com/luizandrends/terraform-aws-modules/compare/v1.3.0...v1.4.0) (2024-06-26)
 
 
